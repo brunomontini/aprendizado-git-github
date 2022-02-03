@@ -1,0 +1,1 @@
+Neste projeto colocarei um pouco de cada coisa que aprendi sobre o git e o github
