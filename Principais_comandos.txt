@@ -1,0 +1,26 @@
+Aqui colocarei alguns comandos do git que aprendi a usar
+
+ 𝗴𝗶𝘁 𝗶𝗻𝗶𝘁  ➡ para criar e iniciar um novo repositório git.
+
+ 𝗴𝗶𝘁 𝘀𝘁𝗮𝘁𝘂𝘀  ➡ para exibir listas de arquivos alterados, e se ja estão selecionados na índice ou não.
+
+ 𝗴𝗶𝘁 𝗮𝗱𝗱  ➡ para adicionar arquivos ao índice(deixar selecionado para o commit).
+ 
+  exemplo: git add minha_lista.txt
+
+Estou adicionando o arquivo de texto chamado "minha_lista" ao índice.
+
+ 𝗴𝗶𝘁 𝗰𝗼𝗺𝗺𝗶𝘁  ➡ Para dar commit no arquivo selecionado na índice
+
+    exemplo: git commit -m 'Coloque um comentário sobre a alteração aqui'
+
+Você confirmou as alterações feitas no seu arquivo e adicionou um comentário sobre a alteração feita.
+
+  𝗴𝗶𝘁 𝗹𝗼𝗴 ➡  Para exibir uma lista dos seus commits na branch em que está.
+
+  
+
+
+
+
+
