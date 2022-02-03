@@ -1,1 +1,1 @@
-Neste projeto colocarei um pouco de cada coisa que aprendi sobre o git e o github
+Neste projeto colocarei um pouco de cada coisa que aprendi sobre o git e o github. Vou falar sobre a instalação do git, comandos, branches e github.
