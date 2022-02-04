@@ -1,0 +1,14 @@
+ Para instalar é bem simples, basta clicar no link e seguir as instruções para instalação https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git.
+ 
+ Apos instalar você deve configurar seu git com suas informações (seu nome e seu email) para que fique salvo em seus projetos.
+Abra o terminal, digite e execute  o seguinte comando para registrar seu nome: "git config --global user.name "SEU NOME".
+
+   exemplo : git config --global user.name "Fulano de Tal".
+
+Agora para registar o seu email, no terminal digite e execute o seguinte comando: "git config --global user.email "SEU EMAIL".
+   
+   exemplo : git config --global user.email "fulanodetal@exemplo.br".
+
+Você pode verificar se suas configurações estão registradas usando o seguinte comando "git config --list". Apos executar este comando uma lista com suas configurações vai aparecer.
+
+O comando "config --global" que você usa acima, serve para que seus dados fiquem salvo  para qualquer projeto que você trabalhe, ou seja, os dados ficarão salvos para os proximos projetos que você queira trabalhar, assim não precisando inserir seus dados novamente.
