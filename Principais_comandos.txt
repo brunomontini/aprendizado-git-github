@@ -16,7 +16,12 @@ Estou adicionando o arquivo de texto chamado "minha_lista" ao índice.
 
 Você confirmou as alterações feitas no seu arquivo e adicionou um comentário sobre a alteração feita.
 
-  𝗴𝗶𝘁 𝗹𝗼𝗴 ➡  Para exibir uma lista dos seus commits na branch em que está.
+ 𝗴𝗶𝘁 𝗹𝗼𝗴 ➡  Para exibir uma lista dos seus commits na branch em que está.
+
+
+ 𝗴𝗶𝘁 𝗽𝘂𝗹𝗹 ➡  Para mesclar todas as alterações presentes no repositório remoto para o diretório de trabalho local, o comando pull é usado.
+
+ 𝗴𝗶𝘁 𝗽𝘂𝘀𝗵 ➡  Para enviar as alterações feitas para a branch raiz do repositório no github que está associado ao diretório de trabalho no computador.
 
   
 
