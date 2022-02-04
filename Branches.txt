@@ -1,0 +1,39 @@
+➡ Branches(ramos) servem para desenvolvermos features isoladas.
+➡ A branch main é a principal.
+➡ É possivel misturar as branches usando o comando merge.
+
+
+    Exemplo:
+                                     main
+                                      ⬇
+            98ca9    ⬅  34ac2    ⬅ f30ab
+                                      ⬇
+                                    testing
+
+ No geral as branches servem para que possamos trabalhar em um projeto de forma separada e organizada. De forma que voce possa dividir seu projeto em varios blocos e trabalhar nesses blocos de forma mais limpa.
+
+ Um bom exemplo de como utilizar as branches seria trabalhar em um projeto em equipe, onde o projeto seria criar um website e cada membro da equipe ficaria com uma parte do website para desenvolver,
+Sendo assim criariamos branches para navbar, footer , etc. E cada membro desenvolveria  a sua  parte do projeto em sua respequitiva branch
+ E no final do projeto puxariamos todas as branches para a branch raiz (main) utilizando o comando merge, assim juntando todas as partes em uma só.
+
+Comandos:
+
+ 𝗴𝗶𝘁 𝗯𝗿𝗮𝗻𝗰𝗵 <name> ➡  Para criar uma nova branch
+   Exemplo: git branch testing
+  Uma nova branch chamada testing é criada.
+ 
+ 𝗴𝗶𝘁 𝗯𝗿𝗮𝗻𝗰𝗵 –D <branch-name> ➡ para exluir uma branch
+   Exemplo: git branch -D testing
+  A branch testing foi excluida.
+
+ 𝗴𝗶𝘁 𝗰𝗵𝗲𝗰𝗸𝗼𝘂𝘁 <branch-name> ➡ Para criar branchs ou alternar sobre as branches.
+   Exemplo: git checkout testing
+  Você está mudando (alternando) para a branch testing.
+
+  E também podemos criar uma nova branch e ja alternar direto para ela
+   Exemplo: git checkout -b testing02
+  Está sendo criado uma nova branch chamada testing02 e você ja é automaticamente puxado para dentro da branch criada.
+
+ 𝗴𝗶𝘁 𝗺𝗲𝗿𝗴𝗲 <branch-name> ➡ Para mesclar a branch selecionada para a branch ativa
+Exemplo: git merge testing
+  Está mesclando a branch testing para a branch na qual estou trabalhando no momento. Exemplo: se estiver na branch main e executar o comando 'git merge testing'  os arquivos da branch testing vão ser puxados para a branch main
