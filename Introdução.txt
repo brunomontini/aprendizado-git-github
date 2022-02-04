@@ -1,0 +1,23 @@
+➡ Git é um sistema de controle de versão de arquivos
+➡ Com ele podemos desenvolver projetos colaborativos com facilidade.
+➡ Registra diferentes modificações de um arquivo
+➡ permite recuperar uma versão especifica
+➡ Pode resolver os seguintes problemas:
+   - Perda de arquivos importantes
+   - Resgate de versão anterior
+
+
+
+      O Fluxo de trabalho do git
+
+➡ Workdir
+ - Diretório de arquivos do projeto no computados
+
+➡  Index
+ - Área temporária de arquivos
+
+➡  HEAD
+ -Aponta para o último commit(versão salva) do projeto 
+
+
+Neste projeto colocarei um pouco de cada coisa que aprendi sobre o git e o github. Vou falar sobre a instalação do git, comandos, branches e github.
