@@ -1,0 +1,38 @@
+Primeiramente deve-se criar uma conta no github https://github.com/
+
+Agora para criar novo repositório basta clicar no botão 𝗡𝗲𝘄, ou ir em Your repositories e clicar em 𝗡𝗲𝘄.
+
+Escolha um nome para o repositório, escolha se deixara publico ou privado( somente você vera os codigos do projeto).
+Após criar o repositório no github o github vai te dar os proximos passos a seguir para conectar seu repositório com seu projeto no computador
+
+No computador deve-se criar uma pasta para seu projeto e iniciar ela no terminal do git
+
+Apos criar a pasta do projeto,  basta seguir os passos que o github deu para executar no terminal do git
+
+        …or create a new repository on the command line
+        echo "# conectando-github" >> README.md
+        git init
+        git add README.md
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/brunomontini96/conectando-github.git
+        git push -u origin main
+
+Caso ja tenha um projeto em andamento e só queira mandalo para o github, basta seguir os seguintes comandos:
+
+        …or push an existing repository from the command line
+        git remote add origin https://github.com/brunomontini96/conectando-github.git
+        git branch -M main
+        git push -u origin main
+
+𝗴𝗶𝘁 𝗽𝘂𝘀𝗵 -𝘂 𝗼𝗿𝗶𝗴𝗶𝗻 𝗺𝗮𝗶𝗻 ➡ Este comando vai puxar seu projeto do computador e mandar para seu repositório do github
+apos executar este comando no terminal, vai ser pedido seu username e sua password do github, mas o github atualizou a segurança dos repositórios e agora no lugar do password você deve insirir uma access tokens
+
+Para criar uma access tokens basta ir no github em setting > Developer settings > Personal access tokens                 (https://github.com/settings/tokens)
+Basta copiar e salvar a sua access.
+
+Sera algo parecido com: ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+
+
+então agora basta executar o git 'push -u origin main', adicionar seu username e sua access token no lugar do password, e seus arquivos serão carregados para seu repositório no github.
+
